@@ -15,6 +15,6 @@ public class Gaulois {
 		System.out.println(asterix.getNom());
 	}
 	public void parler(String txt) {
-		System.out.println("le gaulois"+nom+":<<"+txt+">>.");
+		System.out.println("le gaulois "+nom+" :<<"+txt+">>.");
 	}
 }
