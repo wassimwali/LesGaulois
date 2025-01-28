@@ -17,4 +17,8 @@ public class Gaulois {
 	public void parler(String txt) {
 		System.out.println("le gaulois "+nom+" :<<"+txt+">>.");
 	}
+	public void frapper(Romain romain) {
+		System.out.println("le gaulois "+nom+" envoie un grand coup dans la mâchoire de "+romain.getNom());
+		romain.recevoirCoup(force/3);
+	}
 }

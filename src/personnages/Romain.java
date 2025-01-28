@@ -13,4 +13,14 @@ public class Romain {
 	public void parler(String txt) {
 		System.out.println("le Romain "+nom+" :<<"+txt+">>.");
 	}
+	public void recevoirCoup(int coup) {
+		force=force-coup;
+		if (force<= 0) {
+			force=0;
+			System.out.println("J'abandonne... ");
+		}
+		else {
+			System.out.println("Aïe ! ");
+		}
+	}
 }
