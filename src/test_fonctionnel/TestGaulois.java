@@ -14,7 +14,7 @@ public class TestGaulois {
 			minus.recevoirCoup(3);
 		}*/
 		for (int i=1;i<4;i++) {
-			asterix.frapper(minus);
+			minus.frapper(asterix);
 		}
 	}
 
