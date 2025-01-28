@@ -7,7 +7,7 @@ public class Gaulois {
 		this.nom=nom;
 		this.force=force;
 	}
-	public getNom() {
+	public String getNom() {
 			return nom;
 	}
 }
