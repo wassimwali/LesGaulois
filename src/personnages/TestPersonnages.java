@@ -21,7 +21,4 @@ public class TestPersonnages {
 		village.afficherVillage();
 		camp.afficherCamp();
 		 }
-		}
-	}
-
 }

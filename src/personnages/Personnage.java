@@ -7,6 +7,9 @@ public abstract class Personnage {
 		this.nom=nom;
 		this.force=force;
 	}
+	public int getforce() {
+		return force;
+	}
 	public String getNom() {
 		return nom;
 	}
@@ -26,7 +29,7 @@ public abstract class Personnage {
 	}
 	public void frapper(Personnage adversaire) {
 		System.out.println("le "+this.donnerAuteur()+" "+nom+" envoie un grand coup dans la mâchoire de "+adversaire.getNom());
-		adversaire.recevoirCoup(force/3);
+		adversaire.recevoirCoup(force);
 	}
 
 }
